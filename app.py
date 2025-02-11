@@ -2,11 +2,11 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-st.title('Car Price Prediction using Linear Regression')
-st.write('This web app predicts the **Car price**')
+st.title('Advertising sales Prediction using Linear Regression')
+st.write('This web app predicts the **Sales**')
 
 # To read the model from the pickle file
-model=pickle.load(open('model_lr_car.pkl','rb'))
+model=pickle.load(open('model_lr.pkl','rb'))
 
 # get the input from the user
 
